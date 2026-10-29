@@ -16,9 +16,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send welcoming message with interactive crypto options menu."""
     user = update.effective_user
     welcome_text = (
-        f"👋 Welcome {user.first_name} to **Crypto Pulse**!\n\n"
-        "Your fast and secure gateway to live cryptocurrency tracking, market signals, and instant swaps.\n\n"
-        "Choose an option below to get started:"
+        "📈 Welcome to CryptoPulse Bot!\n\n"
+        "Track live crypto prices, set instant price alerts, "
+        "and view market trends directly inside this bot."
     )
     
     keyboard = [
